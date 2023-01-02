@@ -1,0 +1,4 @@
+function myEvilStr(phrase){
+    
+
+}
