@@ -1,5 +1,5 @@
 function myEvilPow(nbre, pow){
-    if (n === 0) {
+    if (pow === 0) {
         return 1;
       }
     else {
