@@ -12,6 +12,8 @@ function level2(n){
 
 }
 
+
+
 function firTree(n, tr=0){
     if (tr === 0 ){
         level1(n)
