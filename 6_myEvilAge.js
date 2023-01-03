@@ -1,4 +1,4 @@
-const MyAge = require("5_myAge.js");
+const MyAge = require("./5_myAge");
 
 function myEvilAge(ageStr) {
     age = parseInt(ageStr);
@@ -6,7 +6,7 @@ function myEvilAge(ageStr) {
         return MyAge(age);
     }
     else {
-        return "Vous n'avez pas entrer un nombre"
+        return "Vous n'avez pas entrer un nombre" ;
     }
 }
 

@@ -6,7 +6,7 @@ function myGetNbr(nbre){
         return "-";
     }
     else {
-        return 0;
+        return "0";
     }
 }
 

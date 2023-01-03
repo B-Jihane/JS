@@ -1,11 +1,11 @@
-const MyAge = require("5_myAge.js");
+const myGetNbr = require("./4_myGetNbr");
 
 function myEvilGetNbr (nbrStr) {
     if (parseInt(nbrStr) >= 0 || parseInt(nbrStr) < 0){
-        return MyAge(parseInt(nbrStr))
+        return myGetNbr(parseInt(nbrStr));
     }
     else {
-        return "Vous n'avez pas entrer un nombre"
+        return "Vous n'avez pas entrer un nombre";
     }
 }
 
