@@ -1,7 +1,7 @@
-const myAdd = require("./7_myAdd");
-
-function myStrCat(nbrStr1, nbrStr2){
-    return myAdd(parseInt(nbrStr1), parseInt(nbrStr2));
+function myStrCat(str1, str2){
+    return str1 + ' '+ str2;
 }
+
+console.log(myStrCat("hello" , "Jihane"))
 
 module.exports = myStrCat;
