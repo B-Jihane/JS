@@ -8,12 +8,12 @@ function mySum (myTable) {
 
   /*   console.log("Level 2 : Utilisation .map()");
     let y=0;
-    let sumTable = myTable.map(x => y += x);
-    return sumTable[sumTable.length-1]; */
+    myTable.map(x => y += x);
+    return y; */
 
-    /* console.log("Level 2 : Utilisation .reduce()"); */
-    let sum = myTable.reduce((a, b) => a + b, 0);
-    return sum;
+    /* console.log("Level 3 : Utilisation .reduce()"); */
+    return myTable.reduce((a, b) => a + b, 0);
+
 }
 
 module.exports = mySum;
