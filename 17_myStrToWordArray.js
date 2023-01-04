@@ -1,8 +1,7 @@
 function myStrToWordArray(sentence){
-    if (sentence === "") return ""
-    else {
-        return sentence.split(" ");
-    }
+    if (sentence === "") return [];
+    return sentence.split(" ");
+
 }
 
 module.exports = myStrToWordArray;
