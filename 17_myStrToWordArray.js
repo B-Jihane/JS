@@ -1,5 +1,5 @@
 function myStrToWordArray(sentence){
-    if (sentence === " ") return " "
+    if (sentence === "") return ""
     else {
         return sentence.split(" ");
     }
