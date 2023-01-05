@@ -10,7 +10,3 @@ class Admin extends User {
 
 module.exports = Admin;
 
-
-let me = new Admin("Guilian", "Ganster", 22);
-console.log(me.presentation()); //"Je m'apelle Guilian Ganster, j'ai 22 ans"
-console.log(me.role); //"administrateur"

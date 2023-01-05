@@ -5,7 +5,7 @@ class User {
         this.age = age;
     }
     presentation (){
-        return `Je m'appelle ${this.name} ${this.surname}, j'ai ${this.age} ans`;
+        return `Je m'apelle ${this.surname} ${this.name}, j'ai ${this.age} ans`;
     }
 }
 
