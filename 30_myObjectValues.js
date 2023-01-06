@@ -9,8 +9,6 @@ function myObjectValues(myClass){
 
 }
 
-console.log(myObjectValues({name: "fzef", surname: "FEZEF", age: 25, presentation: () => {}}));
-// "name: Ganster, surname: Guilian, age: 24"
 
 module.exports = myObjectValues;
 
